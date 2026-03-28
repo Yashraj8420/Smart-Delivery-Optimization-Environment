@@ -1,0 +1,29 @@
+name: Delivery Optimization Environment
+
+description: AI agent learns to deliver packages efficiently
+
+actions:
+  - up
+  - down
+  - left
+  - right
+
+state:
+  - agent_position
+  - deliveries_left
+
+reward:
+  delivery: +10
+  step_penalty: -1
+  invalid_move: -5
+
+tasks:
+  easy:
+    grid_size: 5
+    deliveries: 3
+  medium:
+    grid_size: 7
+    deliveries: 5
+  hard:
+    grid_size: 10
+    deliveries: 8
