@@ -16,7 +16,7 @@ The agent navigates a grid, completes deliveries, and tries to maximize rewards 
 
 ## ⚙️ Environment Design
 
-### 🧱 State Space
+###  State Space
 
 * Agent Position (x, y)
 * Remaining Delivery Locations
