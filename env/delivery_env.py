@@ -58,7 +58,7 @@ class DeliveryEnv:
         return self.state(), reward, self.done
     
 
-    def render(self):   # ✅ MUST BE HERE
+    def render(self):   
         grid = [["." for _ in range(self.grid_size)] for _ in range(self.grid_size)]
 
         for d in self.deliveries:
